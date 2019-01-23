@@ -1,6 +1,6 @@
-package com.lin.innerclass;
+package com.lin.inner_class;
 
-import com.lin.innerclass.InnerClassDemo3.Demo3;
+import com.lin.inner_class.InnerClassDemo3.Demo3;
 
 public class Test {
     public static void main(String[] args) {

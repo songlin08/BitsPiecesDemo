@@ -1,4 +1,4 @@
-package com.lin.innerclass;
+package com.lin.inner_class;
 
 public class InnerClassDemo1 {
     String name = "张三";

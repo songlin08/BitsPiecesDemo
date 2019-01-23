@@ -1,4 +1,4 @@
-package com.lin.innerclass;
+package com.lin.inner_class;
 
 public abstract class InnerClassDemo2 {
 
