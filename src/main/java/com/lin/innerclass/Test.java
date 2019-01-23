@@ -1,7 +1,6 @@
 package com.lin.innerclass;
 
 import com.lin.innerclass.InnerClassDemo3.Demo3;
-import com.lin.reflect.Demo4;
 
 public class Test {
     public static void main(String[] args) {
