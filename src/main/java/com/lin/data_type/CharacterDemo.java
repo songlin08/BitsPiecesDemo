@@ -5,19 +5,10 @@ package com.lin.data_type;
  */
 public class CharacterDemo {
     public static void main(String[] args) {
-        char[] arr = {'a','b','c','d','&','1','2','3','$',};
-        for (char c : arr) {
-            if (Character.isLetter(c)){ //判断字符是否为字母
-                System.out.println(c + "是字母");
-            } else if(Character.isDigit(c)){ //判断字符是否为数字
-                System.out.println(c + "是数字");
-            } else{
-                System.out.println(c + "是特殊符号");
-            }
-        }
-        System.out.println("检验完毕！");
 
         method1();
+
+        method2();
     }
 
     public static void method1(){
@@ -31,5 +22,19 @@ public class CharacterDemo {
         System.out.println("b换成大写：" + c2);
         System.out.println("D换成小写：" + c3);
 
+    }
+
+    public static void method2(){
+        char[] arr = {'a','b','c','d','&','1','2','3','$',};
+        for (char c : arr) {
+            if (Character.isLetter(c)){ //判断字符是否为字母
+                System.out.println(c + "是字母");
+            } else if(Character.isDigit(c)){ //判断字符是否为数字
+                System.out.println(c + "是数字");
+            } else{
+                System.out.println(c + "是特殊符号");
+            }
+        }
+        System.out.println("检验完毕！");
     }
 }
