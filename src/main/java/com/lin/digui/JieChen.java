@@ -3,7 +3,7 @@ package com.lin.digui;
 /**
  *   阶乘
  */
-public class JieChenDemo {
+public class JieChen {
     public static void main(String[] args) {
         int n = 5;
         System.out.println(n + "的阶乘为：" + method(n));
