@@ -1,11 +1,11 @@
-package com.lin.jdbc;
+package com.lin.jdbc.PrepareStatement;
 
 import java.sql.*;
 
 /**
  *   第二种：预编译，解决了sql注入的问题
  */
-public class Demo2 {
+public class Demo {
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
         // 1.加载驱动
         Class.forName("com.mysql.jdbc.Driver");

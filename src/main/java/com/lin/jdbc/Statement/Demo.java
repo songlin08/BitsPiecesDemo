@@ -1,11 +1,11 @@
-package com.lin.jdbc;
+package com.lin.jdbc.Statement;
 
 import java.sql.*;
 
 /**
  *    第一种用Statement对象，这样不安全，容易sql注入
  */
-public class Demo1 {
+public class Demo {
     public static void main(String[] args) throws ClassNotFoundException, SQLException, InterruptedException {
         // 1.加载驱动
         Class.forName("com.mysql.jdbc.Driver");
