@@ -3,7 +3,7 @@ package com.lin.jdbc;
 import java.sql.*;
 
 /**
- *   预编译，解决了sql注入的问题
+ *   第二种：预编译，解决了sql注入的问题
  */
 public class Demo2 {
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
