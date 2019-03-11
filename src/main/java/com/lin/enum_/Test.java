@@ -1,5 +1,7 @@
 package com.lin.enum_;
 
+import java.util.Arrays;
+
 public class Test {
 
     public static void main(String[] args) {
@@ -10,5 +12,9 @@ public class Test {
         code = CodeStatus.ERROR.getCode();
         mesg = CodeStatus.ERROR.getMesg();
         System.out.println("ERROR:   code:" + code + " ,mesg:" + mesg);
+
+        //value()方法可以返回该枚举类的所有实例
+        CodeStatus[] codes = CodeStatus.values();
+        Arrays.asList(codes).forEach(System.out::println);
     }
 }
