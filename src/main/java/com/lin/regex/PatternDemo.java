@@ -17,7 +17,7 @@ public class PatternDemo {
         String patternStr = pattern.pattern(); //返回正则表达式的字符串形式,其实就是返回Pattern.complile(String regex)的regex参数
         System.out.println("1.patternStr : " + patternStr);
 
-        Matcher matcher = pattern.matcher( "hello 真好");
+        Matcher matcher = pattern.matcher( "hello 今天天气好");
 
         //matches()是全部匹配，是将整个输入串与模式匹配，如果要验证一个输入的数据是否为数字类型或其他类型，一般要用matches()。
         System.out.println("2.matcher.matches : " + matcher.matches()); //结果为false hello 没有匹配上
@@ -32,7 +32,7 @@ public class PatternDemo {
             end()返回匹配到的子字符串的最后一个字符在字符串中的索引位置.
             group()返回匹配到的子字符串
          */
-        System.out.println("4.matcher.group()" + matcher.group()); //结果为： 真
+        System.out.println("4.matcher.group()" + matcher.group()); //结果为： 今  返回group(0)
 
         //Pattern.matcher(String regex,CharSequence input)是一个静态方法,用于快速匹配字符串,该方法适合用于只匹配一次,且匹配全部字符串.
         System.out.println("5.Pattern.matches : " + Pattern.matches( "\\d+","123")); //结果为true
