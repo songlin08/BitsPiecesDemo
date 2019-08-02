@@ -19,7 +19,7 @@ public class ListDemo1 {
         //清除元素
         //array.clear();
         for(int i=0;i<array.size();i++){
-            System.out.print(" " + array.get(i));
+            System.out.println(" i:" + array.get(i));
         }
     }
 }

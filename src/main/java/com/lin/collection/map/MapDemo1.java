@@ -16,7 +16,7 @@ public class MapDemo1 {
         //打印出键为2的值
         System.out.println(map.get(2));
         //找出键值对的关系,用set接收,并打印出来
-        Set set=map.entrySet();
+        Set set = map.entrySet();
         System.out.println("键值对的关系 : "+set);
 
         //另一种方法打印出键值对
