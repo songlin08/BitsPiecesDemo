@@ -36,7 +36,7 @@ public class MapDemo2 {
         dataMap.put("nsrsbh","abcd112233");
         dataMap.put("nsrmc","四川世纪中税");
         list.add(dataMap);
-        // 必须重新new一个对象，否则操作的是同一个对象，对map赋值会改变list中已存放的数据，因为指向的是同一个地址
+        // 必须重新new一个对象，否则操作的是同一个对象，因为指向的是同一个地址,对map赋值会改变list中已存放的数据
         dataMap = new HashMap<>();
         dataMap.put("memberType","01");
         dataMap.put("memberLevel","01");
