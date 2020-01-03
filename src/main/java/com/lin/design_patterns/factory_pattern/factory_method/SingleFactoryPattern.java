@@ -10,11 +10,6 @@ import com.lin.design_patterns.factory_pattern.SmsSender;
  */
 public class SingleFactoryPattern {
 
-    public static void main(String[] args) {
-        Sender sender = SingleFactoryPattern.produce("sms");
-        sender.send();
-    }
-
     /**
      * 在一个方法中，通过str的不同，判断创建不同的对象
      */
@@ -27,5 +22,11 @@ public class SingleFactoryPattern {
             System.out.println("输入错误");
             return null;
         }
+    }
+
+
+    public static void main(String[] args) {
+        Sender sender = SingleFactoryPattern.produce("sms");
+        sender.send();
     }
 }

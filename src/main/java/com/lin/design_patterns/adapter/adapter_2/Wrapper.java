@@ -5,6 +5,7 @@ import com.lin.design_patterns.adapter.Targetable;
 
 public class Wrapper implements Targetable{
 
+    // 持有Source 类的实例，以达到解决兼容性的问题
     private Source source;
 
     public Wrapper(Source source) {
