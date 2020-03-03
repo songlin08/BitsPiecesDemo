@@ -1,7 +1,7 @@
 package com.lin.design_patterns.strategy;
 
 /**
- * 打折活动，根据折扣返回打折后的价格。
+ * 活动2：打折活动，根据折扣返回打折后的价格。
  */
 public class CashRebate extends CashSuper {
 

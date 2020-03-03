@@ -1,8 +1,8 @@
 package com.lin.design_patterns.strategy;
 
 /**
- * 返利活动，输入返利条件和返利值，
- * 比如满300返100，moneyCoditation为300，moneyReturn为100。
+ * 活动3：返利活动，输入返利条件和返利值，
+ *       比如满300返100，moneyCoditation为300，moneyReturn为100。
  */
 public class CashReturn extends CashSuper {
 
