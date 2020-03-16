@@ -10,6 +10,11 @@ public class TagBuilder {
     private List<Map<String,Object>> list = new ArrayList<>();
     private String name;
 
+    // 静态方法获得实例
+    public static TagBuilder getNewInstence(){
+        return new TagBuilder();
+    }
+
     public TagBuilder name(String value){
         this.name = value;
         return this; //返回当前实例，继续对实例进行复制

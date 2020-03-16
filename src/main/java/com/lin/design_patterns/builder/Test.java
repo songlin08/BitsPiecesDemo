@@ -9,7 +9,7 @@ import java.util.Map;
 public class Test {
 
     public static void main(String[] args) {
-        List<Map<String,Object>> list = BuildersDemo.newTagBuilder()
+        List<Map<String,Object>> list = TagBuilder.getNewInstence()
                 .name("name").value("张三")
                 .name("age").value(25)
                 .name("sex").value("男")
