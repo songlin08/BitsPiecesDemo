@@ -7,11 +7,7 @@ package com.lin;
  * Author: linf
  * Desc：TODO
  */
-public class Test {
+public class linfei01 {
 
 
-    // 分支 linfei_01
-    // 分支 linfei_01
-    // 分支 linfei_01
-    // 分支 linfei_01
 }
