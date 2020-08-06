@@ -5,7 +5,7 @@ package com.lin.digui;
  */
 public class FbnqArray {
     public static void main(String[] args) {
-        int n = 2;
+        int n = 7;
         System.out.println("斐波那契数列中第" + n + "个位置是： " + method(n));
     }
 

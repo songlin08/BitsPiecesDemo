@@ -1,7 +1,5 @@
 package com.lin.collection.set;
 
-import com.sun.javafx.image.IntToBytePixelConverter;
-
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
@@ -23,7 +21,7 @@ public class SetDemo1 {
         for (Object object : arr) {
             System.out.println("遍历：" + object);
         }
-        System.out.println("remove元素" + arr.remove("小白"));  //移除元素
+        System.out.println("remove元素:" + arr.remove("小白"));  //移除元素
 
         //迭代器
         Iterator  it = arr.iterator();//获得一个迭代器

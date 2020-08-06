@@ -1,9 +1,5 @@
 package com.lin.reflect;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-
 /**
  *   反射的三种获取方式
  */
