@@ -21,19 +21,15 @@ public class Ticket implements Runnable{
                     }
                     //获取当前线程的名称
                     String name = Thread.currentThread().getName();
-
                     //格式化车票
                     String tNum = FormatTicketNum(num++);
-
                     //打印车票
                     Thread.sleep(300);
                     System.out.println(name + "售出车票号：" + tNum);
-
                     if (num > ticketNum){
                         System.out.println("车票已售罄");
                         break;
                     }
-
                 } catch(Exception e){
                     e.printStackTrace();
                 }

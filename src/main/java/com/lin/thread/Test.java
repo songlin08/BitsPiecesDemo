@@ -1,8 +1,5 @@
 package com.lin.thread;
 
-import java.util.HashMap;
-import java.util.Map;
-
 /**
  * Java线程有优先级，优先级高的线程会获得较多的运行机会。
  * Java线程的优先级用整数表示，取值范围是1~10，Thread类有以下三个静态常量：

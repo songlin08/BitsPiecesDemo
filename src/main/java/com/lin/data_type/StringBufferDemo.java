@@ -1,5 +1,8 @@
 package com.lin.data_type;
 
+/**
+ * StringBuffer是线程安全的
+ */
 public class StringBufferDemo {
     public static void main(String[] args) {
         //StringBuffer sb = new StringBuffer();//定义了一个空的对象
@@ -17,12 +20,14 @@ public class StringBufferDemo {
 
         System.out.println(sb.delete(2, 4));//删除字符串,从下标为2开始,到4结束,不包括4
 
-        //System.out.println(sb.reverse());   //字符串反转
-
         sb.setCharAt(0, 'A');  //把指定位置字符替换掉
         System.out.println(sb);
 
         System.out.println(sb.replace(3, 10,"hello"));  //不包括5
+
+        //字符串反转
+        StringBuffer sss = new StringBuffer("abcd");
+        System.out.println(sss.reverse());
 
 
     }

@@ -10,13 +10,10 @@ public class Sum {
         System.out.println(n + "以内的和为 ：" + sum);
     }
 
-    private static int sum = 0;
-    public static int method(int num){
-        if (num > 0){
-            sum += num;
-            num--;
-            method(num);
+    public static int method(int mm){
+        if (mm == 1){
+            return 1;
         }
-        return sum;
+        return mm + method(--mm);
     }
 }
